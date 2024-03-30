@@ -1,0 +1,156 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Nutrition Score System</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+
+    
+
+
+    <style>
+        body {
+            color: #333; /* Dark grey text color */
+        }
+
+        h1, h2 {
+            font-weight: bold;
+            color: #333; /* Dark grey text color */
+        }
+
+        ol, ul, li {
+            color: #333; /* Dark grey text color */
+        }
+
+        .content {
+            color: #333; /* Dark grey text color */
+        }
+
+        .description, .score-levels {
+            color: #333; /* Medium grey for descriptions */
+        }
+
+        .score-levels {
+            background-color: #f2f2f2; /* Light grey background for score levels */
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .score-levels strong {
+            color: #333; /* Dark grey for bold text in score levels */
+        }
+
+        .resources {
+            color: #666; /* Medium grey for resources */
+        }
+
+        .resources a {
+            color: #007bff; /* Blue for links */
+        }
+
+        .resources a:hover {
+            color: #0056b3; /* Darker blue for hovered links */
+        }
+    </style>
+
+
+
+
+
+</head>
+<body>
+    <h1>Nutrition Score System</h1>
+
+    <img src="{{ url_for('static', filename='nutriscore-logo.png') }}" alt="Nutri-Score Logo" style="max-width: 400px; height: auto;">
+
+
+    <div class="content">
+        <p class="description">The Nutri-score calculation algorithm is based on the nutritional content of food products, focusing on key components such as energy (calories), saturated fats, total sugars, sodium, proteins, fibers, and fruits and vegetables content.</p>
+
+        <p class="description">The Nutri-Score system assigns letter grades (A, B, C, D, E) based on the nutritional quality of a food product. The total score, calculated from the sum of positive and negative points, determines the assigned Nutri-Score. Here's how the total score translates to Nutri-Score:</p>
+        <ul class="score-list">
+            <li><strong>Nutri-Score A:</strong> Total score &le; -1</li>
+            <li><strong>Nutri-Score B:</strong> -1 &lt; Total score ≤ 2</li>
+            <li><strong>Nutri-Score C:</strong> 2 &lt; Total score ≤ 10</li>
+            <li><strong>Nutri-Score D:</strong> 10 &lt; Total score ≤ 18</li>
+            <li><strong>Nutri-Score E:</strong> Total score &gt; 18</li>
+        </ul>
+
+        <p class="description">Understanding the score levels associated with the Nutri-Score categories helps consumers make informed choices about the nutritional quality of the foods they consume. By selecting foods with higher Nutri-Score ratings and limiting those with lower ratings, individuals can support better dietary habits and improve their overall health outcomes.</p>
+        
+        <h2 class="section-heading">Score Levels for Nutri-Score Categories:</h2>
+        <ul class="score-levels">
+            <li><strong>Nutri-Score A (Green):</strong> Foods categorized as Nutri-Score A represent the highest level of nutritional quality. These foods contain more positive nutrients and fewer negative nutrients per serving. They are typically low in calories, sugar, saturated fat, and sodium, while being rich in fiber, protein, vitamins, and minerals. Choosing foods with Nutri-Score A helps promote a balanced and healthy diet.</li>
+            <li><strong>Nutri-Score B (Light Green):</strong> Foods categorized as Nutri-Score B also offer good nutritional quality, although they may contain slightly higher levels of negative nutrients compared to category A. While still a healthy choice, consumers should be mindful of portion sizes and consumption frequency to maintain a balanced diet.</li>
+            <li><strong>Nutri-Score C (Yellow):</strong> Nutri-Score C indicates foods with moderate nutritional quality. These foods may have a balanced combination of positive and negative nutrients, but they should be consumed in moderation as part of a varied diet. It's important to pay attention to portion sizes and consider overall dietary patterns when including Nutri-Score C foods in meals.</li>
+            <li><strong>Nutri-Score D (Orange):</strong> Foods categorized as Nutri-Score D represent lower nutritional quality compared to categories A, B, and C. These foods may contain higher levels of negative nutrients such as sugar, saturated fat, and sodium, with fewer positive nutrients. While occasional consumption of Nutri-Score D foods is acceptable, they should not be staples of the diet.</li>
+            <li><strong>Nutri-Score E (Red):</strong> Nutri-Score E indicates the lowest level of nutritional quality. Foods in this category typically contain high levels of negative nutrients and are low in positive nutrients. These foods should be consumed sparingly and avoided whenever possible to maintain overall health and well-being.</li>
+        </ul>
+
+        <p class="description">For more information, you can refer to the following resources:</p>
+        <ul class="resources">
+            <li><a href="https://www.fda.gov/food/food-labeling-nutrition/nutrition-education-resources-materials">FDA Nutrition Education Resources</a></li>
+            <li><a href="https://get.apicbase.com/nutri-score-science-based-nutritional-value-labelling-system/#:~:text=A%20Nutri%2DScore%20calculation%20pinpoints,have%20the%20lowest%20nutritional%20value">Nutri-Score: Science-Based Nutritional Value Labelling System</a></li>
+            <li><a href="https://www.who.int/initiatives/food-systems-for-health/nutrition-labelling">WHO: Nutrition Labelling</a></li>
+            <li><a href="https://europa.eu/youreurope/business/product-requirements/food-labelling/general-rules/index_en.htm">EU Food Labelling Rules</a></li>
+            <li><a href="https://unescochair-ghe.org/2023/05/12/report-why-the-european-commission-must-choose-the-nutri-score-nutrition-label/">UNESCO Chair Global Health & Education</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Nutri-Score">Wikipedia: Nutri-Score</a></li>
+        </ul>
+    </div>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nutrition Score System</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+
+</head>
+<body>
+    <h1>Nutrition Score System</h1>
+
+    <img src="{{ url_for('static', filename='nutriscore-logo.png') }}" alt="Nutri-Score Logo" style="max-width: 400px; height: auto;">
+
+    <div class="content">
+        <p class="description">The Nutri-score calculation algorithm is based on the nutritional content of food products, focusing on key components such as energy (calories), saturated fats, total sugars, sodium, proteins, fibers, and fruits and vegetables content.</p>
+
+        <p class="description">The Nutri-Score system assigns letter grades (A, B, C, D, E) based on the nutritional quality of a food product. The total score, calculated from the sum of positive and negative points, determines the assigned Nutri-Score. Here's how the total score translates to Nutri-Score:</p>
+        <ul class="score-list">
+            <li><strong>Nutri-Score A:</strong> Total score &le; -1</li>
+            <li><strong>Nutri-Score B:</strong> -1 &lt; Total score ≤ 2</li>
+            <li><strong>Nutri-Score C:</strong> 2 &lt; Total score ≤ 10</li>
+            <li><strong>Nutri-Score D:</strong> 10 &lt; Total score ≤ 18</li>
+            <li><strong>Nutri-Score E:</strong> Total score &gt; 18</li>
+        </ul>
+
+        <p class="description">Understanding the score levels associated with the Nutri-Score categories helps consumers make informed choices about the nutritional quality of the foods they consume. By selecting foods with higher Nutri-Score ratings and limiting those with lower ratings, individuals can support better dietary habits and improve their overall health outcomes.</p>
+        <br>
+    
+        <p><strong style="color: #6c9eaf; font-size:18px">Score Levels for Nutri-Score Categories:</strong></p>
+        <ul class="score-levels">
+
+            <li><strong>Nutri-Score A (Green):</strong> Foods categorized as Nutri-Score A represent the highest level of nutritional quality. These foods contain more positive nutrients and fewer negative nutrients per serving. They are typically low in calories, sugar, saturated fat, and sodium, while being rich in fiber, protein, vitamins, and minerals. Choosing foods with Nutri-Score A helps promote a balanced and healthy diet.</li>
+            <br>
+            <li><strong>Nutri-Score B (Light Green):</strong> Foods categorized as Nutri-Score B also offer good nutritional quality, although they may contain slightly higher levels of negative nutrients compared to category A. While still a healthy choice, consumers should be mindful of portion sizes and consumption frequency to maintain a balanced diet.</li>
+            <br>
+            <li><strong>Nutri-Score C (Yellow):</strong> Nutri-Score C indicates foods with moderate nutritional quality. These foods may have a balanced combination of positive and negative nutrients, but they should be consumed in moderation as part of a varied diet. It's important to pay attention to portion sizes and consider overall dietary patterns when including Nutri-Score C foods in meals.</li>
+            <br>
+            <li><strong>Nutri-Score D (Orange):</strong> Foods categorized as Nutri-Score D represent lower nutritional quality compared to categories A, B, and C. These foods may contain higher levels of negative nutrients such as sugar, saturated fat, and sodium, with fewer positive nutrients. While occasional consumption of Nutri-Score D foods is acceptable, they should not be staples of the diet.</li>
+            <br>
+            <li><strong>Nutri-Score E (Red):</strong> Nutri-Score E indicates the lowest level of nutritional quality. Foods in this category typically contain high levels of negative nutrients and are low in positive nutrients. These foods should be consumed sparingly and avoided whenever possible to maintain overall health and well-being.</li>
+        <br>    
+        <p class="description">For more information, you can refer to the following resources:</p>
+        <ul class="resources">
+
+            <ul>
+                <li><a href="https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label">FDA - How to Understand and Use the Nutrition Facts Label</a></li>
+                <li><a href="https://www.ewg.org/foodscores/content/methodology-nutrition/#:~:text=Total%20positive%20points%20are%20subtracted,for%20the%20least%20healthful%20foods">EWG - Methodology for Nutrition Scores</a></li>
+        </ul>
+            

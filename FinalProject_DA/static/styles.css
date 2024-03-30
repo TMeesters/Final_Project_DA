@@ -1,0 +1,109 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #444;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 60px; /* Added 'px' unit */
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #00796b; /* Blue-green color */
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #00796b; /* Blue-green color */
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+/* Removed misplaced and incomplete CSS block */
+
+.importance-text {
+    margin-top: 30px; /* Add more space before the text */
+}
+
+.importance-title {
+    font-size: 14px; /* Smaller font size for the title */
+    font-weight: bold;
+    color: #00796b; /* Blue-green color */
+}
+
+.importance-description {
+    font-size: 14px; /* Smaller font size for the description */
+    color: #00796b; /* Blue-green color */
+}
+
+.bold-blue-green {
+    font-weight: bold;
+    color: #00796b; /* Blue-green color */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.score {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6c9eaf; /* Nutri-Score color */
+    margin-bottom: 20px;
+}
+
+.save-form {
+    text-align: left;
+}
+
+.save-form input[type="text"] {
+    padding: 12px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.save-form input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #6c9eaf;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.save-form input[type="submit"]:hover {
+    background-color: #0e2b2f; /* Darker shade on hover */
+}
+
+}
+.nutrition-facts {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.total-points {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}

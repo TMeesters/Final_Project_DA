@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "lexical-rock-416310",
+  "private_key_id": "9c244b07f8d5a348c2fab9f1ef7f11bf5d3e3bf7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDBBUWldy1AEO7j\nZZWY7fmvIO3VlhJnq/9sTA8rA/oOsnyvm/OXm6AhHe9R9OVkkg595ZUh1VaLdIEh\n86U+Ob5lRCGbvs2mVXWBWdKx/aG5JdWgXxSNsPy4qefWeHpul90sYagI+oe7pt0u\ned/K6cS9VxHNd7ZBQ3qj8WcaZeah2O/hZC4cMCO03CvyOi+apZC2NkACL8fMna62\nEpz6xuGZ0MT4QALIopewoWaYwbTN/RWdbuonsBKelm9rEHzWD0sBRiuA7utPTyhA\nf0dCgtZEFfioowflWf0fmSHvh0azAwqKr+avVNB9O60IKbs70runm/rOlZJDc2Aq\ns+Re9KRjAgMBAAECggEAWfIGe+42wGmDoKSoWwzeMq1CFyspJXVhf8pLsSxXvLyQ\n3NZr42SqcHQ+Hu9jbAOhzCoNXihHfZHLURJ0GLSY1CC1FpoJw+6D5MSCKd46nAgU\n7fgQoFxuz/Cg7/DRgLK05qcVQiXY1WmTHUK+thRMUTz/N0OHQw9aWYY3GPaOTDF3\nJf3zHq/crC2BeR0Kk8Li+NT1aIIf/SqcTXvR96ajT4hxjcDzI6wFi2phWN222Pd5\nLZZvtbRnHMIptSXcrd2szqTY/NK75NMZEIAmSZySYaYfSq9/LKmRMz3hidX0BRJj\niGEzZ+JHjTsLh6YFLLeR9vzVKWpV6zRQ8hcBMG3LTQKBgQDtzU4l67u+0bg/7sI5\nK6wvc+1C6VrPAYoeALOs3Ao7jiSQzOWe9znW2/7ziW2dvPf6XsZ5xDzI1cZW1fxA\nPU9uAMn/EE1U+56mMgSjYTkcX/KqqVBCt7nFnFn0B1DhZ0xLKpMg9PumeQyYcumS\nyuWD031fdsOz3gu/3mEGoztxrwKBgQDPyqupBDUT0JNZst2gArv6zhyGgS+7/Nwa\nJgk1rMD5byNoWn4WisfFsWpvT5BQISH92cfs+1vPZKN/K4ZiQw0i/32MF5xHetUA\np1vfp3DhmhCt112Ek5TK43cztc/vwUJq1shfxRJ/3MFvGcqdWMyr0WWcOa82WrCb\nnxbuuJ4pjQKBgAtZmTlGHxfkep7SjoKcCwPYzKI88RCgSi9UaT7+4Z4mEqi2nt8P\nfbs7lNea35h/xHY2v9JgA2ayjVznqbqHMptVfk6mQIql19Sm3oHNyiQIkFSE8Ee+\n7Sb5Z3G2R636eDG+Pnd8OeagMHG2Sl+vP3UjSwCbcovLNVRbENZ4RAYRAoGBAIv4\nJ53YebB5RWictfF9JgcSI+Du0Kq+77yldnqzfeIH3UAEBP9GSL+AfQOyArIXP4Bx\n3NxjjTqsvf2B4in6pLS4iWd+2ATGVwjzs016yu0NDMMtWY9eolHw23D3vbPw6L5z\nI9JvO8DpgVtHclZ/ZI8wpFOR/9aLTH/nsFjp/5BZAoGBAOTi6+k6GwNLR4lH7NQv\nbMUJDMQfg79DO0RE0wwPVsywxHso5bBvPpl8Esl4u4mssoe5XVSTpIl8e/nRyAXD\nxrpXhQSZwMK0H6dfs8k57RiFvn3R7sUpnVkUjGLK+cKCDb1qsfIqkBAj0fIGGQrT\nMAjdlnEKPtxx8u6P+ubDMftD\n-----END PRIVATE KEY-----\n",
+  "client_email": "tarineemeesters@lexical-rock-416310.iam.gserviceaccount.com",
+  "client_id": "102602308452102891635",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/tarineemeesters%40lexical-rock-416310.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
