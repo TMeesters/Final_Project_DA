@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 16px;
+            color: #444;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        h1 {
+            color: #6c9eaf;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        p {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-bottom: 30px; /* Add margin between rows */
+        }
+        .box {
+            width: 40%; /* Each box takes 45% of the width */
+            margin-bottom: 15x; /* Space between boxes */
+        }
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px; /* Decreased padding for smaller boxes */
+            background-color: #6c9eaf; /* Light blue-green */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 20px;
+            transition: background-color 0.3s ease;
+            text-align: center;
+            height: 100px; /* Decreased height for boxes */
+        }
+        a:hover {
+            background-color: #476b78; /* Darker shade on hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to NutriScan</h1>
+    <p style="color: #333; font-weight: bold; font-size: 18px;">Discover a healthier way to shop for groceries!</p>
+    <p>NutriScan empowers you to make informed choices about the food you buy.</p>
+    <p>Scan your products, explore their nutritional value, and make smarter decisions for a healthier lifestyle.</p>
+    <br>
+    <div class="box-container">
+        <div class="box"><a href="/upload">Scan Your Product</a></div>
+        <div class="box"><a href="/nutriscore">Nutrition Score Information</a></div>
+    </div>
+    <div class="box-container">
+        <div class="box"><a href="/mylist">My List</a></div>
+        <div class="box"><a href="/about">About Us</a></div>
+    </div>
+</body>
+</html> 
+
+
